@@ -1,0 +1,10 @@
+id = "gwenwindflower.catppuccin"
+name = "Catppuccin"
+description = "Catppuccin Frappé for renCal"
+min_rencal_version = "0.9.3"
+
+[[contributes.themes]]
+id = "frappe"
+name = "Catppuccin Frappé"
+css = "themes/frappe.css"
+appearance = "dark"

@@ -1,0 +1,38 @@
+/* Catppuccin Frappé palette, https://catppuccin.com/palette, MIT License, Copyright (c) 2021 Catppuccin */
+--ctp-pink: #f4b8e4;
+--ctp-mauve: #ca9ee6;
+--ctp-red: #e78284;
+--ctp-yellow: #e5c890;
+--ctp-green: #a6d189;
+--ctp-text: #c6d0f5;
+--ctp-subtext1: #b5bfe2;
+--ctp-subtext0: #a5adce;
+--ctp-surface0: #414559;
+--ctp-base: #303446;
+--ctp-mantle: #292c3c;
+
+--background: var(--ctp-base);
+--foreground: var(--ctp-text);
+--muted-foreground: var(--ctp-subtext0);
+--sidebar: var(--ctp-mantle);
+
+--popover: var(--ctp-mantle);
+--tooltip: var(--ctp-surface0);
+--selected: color-mix(in srgb, var(--ctp-mauve) 16%, transparent);
+
+/* Subtext 0 drops below 4.5:1 on these tinted surfaces */
+--accent-muted-foreground: var(--ctp-subtext1);
+--selected-muted-foreground: var(--ctp-subtext1);
+--tooltip-muted-foreground: var(--ctp-subtext1);
+--toast-muted-foreground: var(--ctp-subtext0);
+
+--primary: var(--ctp-mauve);
+--primary-foreground: var(--ctp-base);
+--ring: var(--ctp-mauve);
+--today: var(--ctp-pink);
+--today-foreground: var(--ctp-base);
+
+--success: var(--ctp-green);
+--warning: var(--ctp-yellow);
+--destructive: var(--ctp-red);
+--destructive-foreground: var(--ctp-base);
