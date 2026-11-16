@@ -13,7 +13,7 @@ Installing via the GUI adds the plugin to `plugins.toml`:
 
 ```toml
 plugins = [
-  "gwenwindflower/rose-pine",
+  "gwenwindflower/rencal-theme-catppuccin-frappe"
 ]
 ```
 
@@ -22,11 +22,11 @@ For local development with live reloading, clone the repo and add the path to yo
 ```toml
 plugins = [
   ...
-  "/path/to/rose-pine",
+  "/path/to/catppuccin-frappe"
 ]
 ```
 
-renCal links the checkout into its plugins directory and reloads `themes/dawn.css` as you save it, so edits show up in the running app while Rosé Pine Dawn is selected.
+renCal links the checkout into its plugins directory and reloads `themes/frappe.css` as you save it, so edits show up in the running app while Catppuccin Frappé is selected.
 
 ## Palette mapping
 
