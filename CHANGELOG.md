@@ -1,4 +1,12 @@
 
+### 🧰 Tooling & Tasks
+
+#### Rencal
+
+* fix plugin id to kebab case by @gwenwindflower
+
+
+
 ### 📚 Documentation
 
 #### Readme
